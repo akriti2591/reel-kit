@@ -1,0 +1,12 @@
+{
+  "name": "reel-kit-marketplace",
+  "description": "The reel-kit plugin: a Remotion toolkit and workflow skill for photo reels.",
+  "owner": { "name": "reel-kit contributors" },
+  "plugins": [
+    {
+      "name": "reel-kit",
+      "source": "./",
+      "description": "Make Instagram Reels and motion graphics over photos with Remotion (beat grid, sticker cutouts, doodles, sticker text, instant prints)."
+    }
+  ]
+}

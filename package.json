@@ -1,0 +1,27 @@
+{
+  "name": "reel-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Remotion kit for Instagram-style reels over photos: beat grid, die-cut stickers, hand-drawn doodles, sticker text, instant prints.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render:demo": "remotion render src/index.ts DemoReel out/demo.mp4",
+    "render:part": "remotion render src/index.ts DemoPart2 out/demo-part2.mp4",
+    "still:dots": "remotion still src/index.ts AnchorDots out/stills/anchor-dots.png",
+    "sfx:have": "node tools/sfx-have.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.532",
+    "@remotion/google-fonts": "4.0.532",
+    "@remotion/media-utils": "4.0.532",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "7.0.2"
+  }
+}

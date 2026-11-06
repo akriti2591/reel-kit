@@ -1,0 +1,21 @@
+node_modules
+out
+.venv
+.DS_Store
+# Your media never goes in git (stock licences forbid redistribution; personal photos stay local)
+demo/photos/*
+!demo/photos/README.md
+demo/cut/*
+!demo/cut/.gitkeep
+demo/sfx/*.wav
+demo/sfx/*.mp3
+demo/sfx/raw
+demo/anchors.json
+demo/posts
+projects/
+*.heic
+*.HEIC
+demo/layout.json
+demo/post.png
+demo/*.jpg
+demo/*.png

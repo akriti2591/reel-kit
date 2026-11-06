@@ -1,0 +1,8 @@
+{
+  "name": "reel-kit",
+  "displayName": "Reel Kit",
+  "version": "0.1.0",
+  "description": "Make Instagram Reels and motion graphics over photos with Remotion: beat-synced cuts, die-cut sticker cutouts, boiling hand-drawn doodles, sticker text, instant prints, puzzle grids. Local-only workflow (macOS).",
+  "author": { "name": "reel-kit contributors" },
+  "keywords": ["remotion", "instagram", "reels", "motion-graphics", "video", "photos"]
+}
